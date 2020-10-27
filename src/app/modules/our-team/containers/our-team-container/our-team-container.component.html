@@ -1,0 +1,5 @@
+<div class="our-team__title">Our team</div>
+<div class="our-team__container">
+  <app-member-card class="our-team__card" [member]="member" *ngFor="let member of (ourTeamStateService.teamMembers$ | async)">
+  </app-member-card>
+</div>

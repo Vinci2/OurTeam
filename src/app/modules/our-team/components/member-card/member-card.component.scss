@@ -1,0 +1,47 @@
+
+@import 'variables';
+
+.member-card {
+  &__img-container {
+    overflow: hidden;
+    height: 400px;
+  }
+
+  &__description-container {
+    padding: 30px;
+  }
+
+  &__name {
+    color: $primaryColor;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    font-weight: bold;
+  }
+
+  &__position {
+    color: $subtitleColor;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  &__email {
+    color: $infoColor;
+    font-size: 13px;
+    margin-bottom: 3px;
+    font-weight: bold;
+  }
+
+  &__tel {
+    color: $subtitleColor;
+    font-size: 13px;
+  }
+
+//Quick method to apply small adjustments for pictures not well positioned
+  &__img {
+    &--Jessica-Torres {
+      position: relative;
+      bottom: 95px;
+    }
+  }
+}

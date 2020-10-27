@@ -1,0 +1,11 @@
+
+<div class="member-card__img-container">
+  <img [class]="'member-card__img--' + member.name.split(' ').join('-')" [src]="member.images.w400" [alt]="member.name">
+</div>
+
+<div class="member-card__description-container">
+  <div class="member-card__name">{{member.name}}</div>
+  <div class="member-card__position">{{member.position}}</div>
+  <div class="member-card__email">{{member.email}}</div>
+  <div class="member-card__tel">{{member.tel}}</div>
+</div>
